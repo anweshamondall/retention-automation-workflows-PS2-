@@ -1,52 +1,82 @@
-# Retention Automation Workflows
+# Design and Deployment of Automated Retention Campaigns
 
-This repository presents a structured representation of automation-driven customer engagement systems designed during my internship. The work focuses on building retention marketing workflows using trigger-based logic, behavioural segmentation, and multi-channel communication systems.
-
----
-
-## 🔍 Overview
-
-The project demonstrates how automation platforms can be used to design and deploy retention campaigns across email and WhatsApp channels. It highlights the use of structured workflows, conditional logic, and event-driven triggers to automate user communication.
+This repository contains my Practice School – II (PS-II) internship work, focused on designing and deploying automation-driven customer engagement systems.
 
 ---
 
-## ⚙️ Key Concepts
+## 📄 Internship Report (Main Submission)
+
+📄 [View Full Internship Report](report/PS2_Report_Anwesha_Mondal.pdf)
+
+The report includes:
+
+- Complete campaign lifecycle understanding  
+- Automation workflow design  
+- HTML email template structuring  
+- WhatsApp API-based campaign systems  
+- User segmentation and behavioural targeting  
+- Tracking & analytics implementation  
+
+---
+
+## 🔍 Project Overview
+This repository demonstrates the application of Computer Science concepts such as workflow automation, conditional logic, system integration, and data-driven decision-making in a real-world marketing technology environment.
+
+During my internship, I worked on building and managing automated retention campaigns using platforms such as Customer.io, Interakt, Mailchimp, and Mailjet.
+
+The work involved:
 
 - Trigger-based automation workflows  
-- Behavioural user segmentation  
-- Conditional branching logic (if–else conditions)  
-- Multi-channel communication (Email + WhatsApp)  
-- Campaign scheduling and execution  
+- Behavioural segmentation logic  
+- Multi-channel campaign deployment (Email + WhatsApp)  
+- API-driven communication systems  
+- Performance tracking using UTM and analytics  
 
 ---
 
-## 🔁 Cart Abandonment Workflow
+## ⚙️ Supporting Technical Work
 
-### Objective
-To re-engage users who added products to their cart but did not complete the purchase.
+To represent my internship work in a structured technical format, I have included:
 
-### Workflow Steps
+- Workflow designs  
+- Automation logic representations  
+- System architecture documentation  
 
-1. User adds a product to cart  
-2. System waits for a defined duration (e.g., 2 hours)  
-3. If purchase is not completed, a reminder message is triggered  
-4. If no response, a follow-up message is sent after 24 hours  
-5. If purchase is completed at any stage, the workflow exits  
+---
 
+## 🔁 Example Workflow Logic
+```
+IF cart_abandoned == TRUE:
+    WAIT 2 hours
+    SEND reminder_message
 
-## 🧠 Technical Learning Outcomes
+IF no_purchase:
+    WAIT 24 hours
+    SEND follow_up_message
 
-- Designed event-driven automation workflows  
-- Implemented behaviour-based segmentation logic  
-- Understood multi-platform campaign execution systems  
-- Worked with structured campaign lifecycle and deployment logic  
-- Applied debugging and validation techniques in workflow systems  
+IF purchase_completed:
+    EXIT workflow
+```
+
+---
+
+## 🏗️ System Architecture
+
+Creative Layer → Template Configuration → Automation Platforms → Delivery APIs → Tracking & Analytics
+
+---
+
+## 🧠 Key Learning Outcomes
+
+- Workflow automation design  
+- Conditional logic implementation  
+- Multi-platform system integration  
+- API-based campaign execution  
+- Debugging and performance tracking  
 
 ---
 
 ## ⚠️ Disclaimer
 
-This repository is a reconstructed and simplified representation of internship work created for academic purposes.  
-No proprietary tools, internal systems, or client data have been included.
-
----
+All supporting content in this repository is a simplified, non-confidential representation of internship work.  
+No proprietary data or internal company systems have been shared.
