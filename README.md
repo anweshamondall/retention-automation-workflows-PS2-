@@ -6,8 +6,7 @@ This repository contains my Practice School – II (PS-II) internship work, focu
 
 ## 📄 Internship Report (Main Submission)
 
-📄 [View Full Internship Report](report/mid%20term%20report-Anwesha(2022btech016).pdf)
-The report includes:
+📄 [View Full Internship Report](PS2_Midterm_Report_Anwesha_Mondal.pdf)The report includes:
 
 - Complete campaign lifecycle understanding  
 - Automation workflow design  
